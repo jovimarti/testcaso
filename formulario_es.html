@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html"; charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Español</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div style="text-align:center;">
+    <h1>Formulario en Español</h1>
+  </div>
+  <hr>
+  <div class="container">
+    <h4><b><a href="index.html">Ir a HOME</a></b></h4> 
+  </div>
+  <div class="container-form">
+    <form action="https://ulitycrm--pre.sandbox.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+      <input type="hidden" name="orgid" value="00D7E000000AlF0">
+      <input type="hidden" name="retURL" value="https://www.weareulity.com/es/thankyou-form">
+      <input type="hidden" name="type" id="type" value="ULITY CONSULTA">
+      <input type="hidden" name="recordType" id="recordType" value="0127E000004BZa9">
+      <input type="hidden" name="reason" id="reason" value="Consulta Ulity Formulario Web">
+      <input type="hidden" name="00N7Q00000I4mnY" id="00N7Q00000I4mnY" value="Consulta Ulity Formulario Web">
+      <input type="hidden" name="status" id="status" value="Closed">
+      <input type="hidden" name="00N7E00000NN7mn" id="00N7E00000NN7mn" value="ES">
+  
+      <label for="00N7E00000NN4wL">Nombre</label>
+      <input type="text" id="00N7E00000NN4wL" name="00N7E00000NN4wL" maxlength="255" size="20">
+  
+      <label for="00N7E00000NN4wQ">Apellidos</label>
+      <input type="text" id="00N7E00000NN4wQ" name="00N7E00000NN4wQ" maxlength="255" size="20">
+
+      <label for="00N7E00000NN4wf">Email</label>
+      <input type="text" id="00N7E00000NN4wf" name="00N7E00000NN4wf" maxlength="80" size="20" required>
+
+      <label for="phone">Teléfono</label>
+      <input type="text" id="phone" name="phone" maxlength="40" size="20">
+  
+      <label for="00N7E00000NN8Or">Seleccionar Asunto</label>
+      <select id="00N7E00000NN8Or" name="00N7E00000NN8Or" title="Asunto Formulario Ulity">
+        <option value="">--Ninguno--</option>
+        <option value="Información general">Información general</option>
+        <option value="Conviértase en socio">Conviértase en socio</option>
+        <option value="Trabaje con nosotros">Trabaje con nosotros</option>
+      </select>
+  
+      <label for="description">Mensaje</label>
+      <textarea id="description" name="description" style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+</body>
+</html>
