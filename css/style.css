@@ -7,9 +7,10 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 48%;
+  width: 25%;
   float: left;
-  margin-left: 20px;
+  margin-left: 40px;
+  text-align: center;
 }
 
 .card:hover {
@@ -23,10 +24,17 @@
 .container-card {
   width: 100%;
   content: "";
-  display: table;
+  display: flex;
   clear: both;
   box-sizing: inherit;
   height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Style inputs with type="text", select elements and textareas */
